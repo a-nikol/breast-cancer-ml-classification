@@ -38,8 +38,8 @@ This repository contains Python code for processing the Breast Cancer dataset us
 
 ## Results Summary
 
-- The repository provides a comprehensive analysis of breast cancer classification using various classifiers.
-- Support Vector Classifier and Multi-layer Perceptron Classifier exhibit consistent performance across multiple metrics, making them the preferred choices.
-- Logistic Regression and K-Nearest Neighbors also perform well in accurately predicting the correct category.
-- Decision Tree Classifier shows signs of potential overfitting, particularly with higher ROC AUC on the training set compared to the test set.
-- Feature selection via VarianceThreshold does not significantly improve classification results.
+- This project focuses on breast cancer classification, employing various preprocessing techniques and classification algorithms for accurate predictions. Techniques like Min-Max scaling, PCA, t-SNE, and feature selection with VarianceThreshold optimize the data. EDA techniques offer insights into the dataset's characteristics.
+- The project evaluates different classifiers like Logistic Regression, K-NN, SVC, MLP Classifier, Decision Tree, and Gaussian Naive Bayes. Fine-tuning each classifier enhances its performance, assessed using ROC AUC, accuracy, and classification report.
+- Feature selection improves classification results by selecting relevant features and reducing noise. SVC and MLP Classifier show robust performance, followed by Logistic Regression and K-NN. Decision Tree tends to overfit.
+
+Accurate breast cancer classification aids in medical diagnosis and treatment planning, improving patient outcomes and healthcare management.
